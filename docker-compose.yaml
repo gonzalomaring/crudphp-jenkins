@@ -2,7 +2,7 @@ version: '3.1'
 services:
   crud-php:
     container_name: cont-examen
-    image: gonzalomarin/examen1:latest
+    image: gonzalomarin/examen-crudphp:latest
     restart: always
     environment:
       DB_HOST: bd_mariadb
